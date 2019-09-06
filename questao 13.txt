@@ -1,0 +1,21 @@
+float n1, n2, soma, res;
+            Console.WriteLine();
+            Console.WriteLine("Digite um número:");
+            n1 = float.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Digite outro número:");
+            n2 = float.Parse(Console.ReadLine());
+
+            soma = n1 + n2;
+
+            if (soma >= 20)
+            {
+                res = soma + 8;
+                Console.WriteLine();
+                Console.WriteLine("O resultado é: " + res);
+            }
+            else
+            {
+                res = soma - 5;
+                Console.WriteLine();
+                Console.WriteLine("O resultado é: " + res);
